@@ -24,4 +24,4 @@ This CFG will have the following string encoding.
 encoding of the CFG. Thus, in the above example, the variables are ordered thus: S, T, L.  
 • LRE returns a string encoding the resulting CFG where a newly-introduced variable, for
 the elimination of immediate left-recursion for variable A, is the string A0. Thus, for the above example, the output should be as follows.  
-**S,TS';T,aSb,iaLb,i;L,aSbS'dL,aSbS',iaLbS'dL,iaLbS',iS'dL,iS';S',cTS', ;
+**S,TS';T,aSb,iaLb,i;L,aSbS'dL,aSbS',iaLbS'dL,iaLbS',iS'dL,iS';S',cTS', ;**
